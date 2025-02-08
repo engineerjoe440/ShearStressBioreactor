@@ -6,11 +6,16 @@
 
 //All library includes
 #include <Arduino.h>
+#include <SPI.h>
+#include <WiFi.h>
+#include <Update.h>
+#include <WebServer.h>
+#include <DNSServer.h>
 #include <Wire.h>
-#include <ESP_FlexyStepper.h>
 
 //all file includes
 #include "BioreactorVaribiles.hpp"
+#include "ESP_FlexyStepper.h"
 #include "sensirion-lf.h"
 #include "sensirion-lf.cpp"
 #include "WebHosting.hpp"
